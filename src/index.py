@@ -2,6 +2,7 @@ import unittest
 from varasto import Varasto
 
 
+#Comment to force re-run of CI
 def main():
     mehua = Varasto(100.0)
     olutta = Varasto(100.0, 20.2)
